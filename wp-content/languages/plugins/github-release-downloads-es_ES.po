@@ -1,0 +1,206 @@
+# Translation of Plugins - GitHub Release Downloads - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - GitHub Release Downloads - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-06 07:34:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - GitHub Release Downloads - Stable (latest release)\n"
+
+#: github-release-downloads.php:196
+msgid "Source code"
+msgstr "Código fuente"
+
+#: github-release-downloads.php:78
+msgid "Release descriptions and source code links were added to the latest version.<br/>To remove them use <code>hide_description=\"true\"</code> or <code>hide_source_code=\"true\"</code> in your shortcode.<br/>Also, to include draft or prereleases you must add <code>prereleases=\"true\"</code>."
+msgstr "Las descripciones de las versiones y los enlaces del código fuente han sido añadidos a la última versión.<br/>Para eliminarlos, usa <code>hide_description=\"true\"</code> o <code>hide_source_code=\"true\"</code> en tu shortcode.<br/>Además, para incluir borradores o prelanzamientos, debes añadir <code>prereleases=\"true\"</code>."
+
+#: github-release-downloads.php:492
+msgid "Rate this plugin"
+msgstr "Valora este plugin"
+
+#: github-release-downloads.php:77
+msgid "Upgrade Notice"
+msgstr "Aviso de actualización"
+
+#: github-release-downloads.php:492
+msgid "Your feedback is important!"
+msgstr "¡Tu opinión es importante!"
+
+#: github-release-downloads.php:491
+msgid "Review"
+msgstr "Reseña"
+
+#: github-release-downloads.php:387
+msgid "GitHub repository has no published full releases, only draft releases or prereleases were found"
+msgstr "El repositorio de GitHub no tiene versiones publicadas, solo se encontraron borradores o prelanzamientos"
+
+#: github-release-downloads.php:480
+msgid "Scopes"
+msgstr "Scopes"
+
+#: github-release-downloads.php:85
+msgid "Generate an access token to avoid rate limiting on the GitHub API."
+msgstr "Genera un token de acceso para evitar la limitación de consultas en la API de GitHub."
+
+#: github-release-downloads.php:71
+msgid "Go to %s to set default values, an access token and get help."
+msgstr "Ir a %s para establecer los valores por defecto, un token de acceso y obtener ayuda."
+
+#: github-release-downloads.php:481
+msgid "Scopes limit access for tokens. If you want to read releases from private repositories, select <code>repo</code> scope when creating a token."
+msgstr "Los scopes o ámbitos limitan el acceso de los tokens. Si quieres consultar versiones de repositorios privados, selecciona el scope <code>repo</code> al crear un token."
+
+#: github-release-downloads.php:477
+msgid "For requests using an access token, you can make up to 5,000 requests per hour. For unauthenticated requests, the rate limit allows you to make up to 60 requests per hour. Unauthenticated requests are associated with your server IP address, and not the user making requests."
+msgstr "Para consultas utilizando un token de acceso, se pueden hacer hasta 5.000 solicitudes por hora. Para consultas no autenticadas, el límite permite hacer hasta 60 solicitudes por hora. Las solicitudes no autenticadas están asociadas con la dirección IP de tu servidor, y no con el usuario que realiza las peticiones."
+
+#: github-release-downloads.php:474
+msgid "The download counts are not available for the ZIP or TAR archives of source code. They are only available for the release assets which are uploaded for the release. Providing download counts for the archives of source code is on GitHub wishlist, but is currently not supported."
+msgstr "La cantidad de descargas no está disponible para los archivos ZIP o TAR del código fuente. Este número solo está disponible para los activos que se suben a la versión. Proveer el recuento de descargas de los archivos de código fuente está en la lista de deseos de GitHub, pero actualmente no es compatible."
+
+#: github-release-downloads.php:462
+msgid "Generate token"
+msgstr "Generar token"
+
+#: github-release-downloads.php:463
+msgid "Create a new token to make up to 5,000 requests per hour."
+msgstr "Crea un nuevo token para hacer hasta 5.000 solicitudes por hora."
+
+#: github-release-downloads.php:367
+msgid "GitHub request forbidden"
+msgstr "Solicitud a GitHub prohibida"
+
+#: github-release-downloads.php:478
+msgid "<strong>Important:</strong> If your website is on a shared hosting, you should set the Access Token."
+msgstr "<strong>Importante:</strong> Si tu web se encuentra en un alojamiento compartido, debe establecer el token de acceso."
+
+#: github-release-downloads.php:476
+msgid "Rate Limiting"
+msgstr "Límite de consultas"
+
+#: github-release-downloads.php:473
+msgid "Release Assets"
+msgstr "Activos de la versión"
+
+#: github-release-downloads.php:459
+msgid "Access Token"
+msgstr "Token de acceso"
+
+#: github-release-downloads.php:382
+msgid "GitHub repository has no release assets. Currently, the download count stored on GitHub is only available for assets."
+msgstr "El repositorio de GitHub no tiene activos de la versión. Actualmente, el número de descargas almacenado en GitHub solo está disponible para los activos."
+
+#: github-release-downloads.php:370
+msgid "GitHub response is empty"
+msgstr "La respuesta de GitHub está vacía"
+
+#: github-release-downloads.php:40
+msgid "Settings"
+msgstr "Ajustes"
+
+#: github-release-downloads.php:185
+msgid "1 download"
+msgid_plural "%s downloads"
+msgstr[0] "1 descarga"
+msgstr[1] "%s descargas"
+
+#: github-release-downloads.php:296
+msgid "GitHub username can not be empty"
+msgstr "El nombre de usuario de GitHub no puede estar vacío"
+
+#: github-release-downloads.php:299
+msgid "GitHub repository name can not be empty"
+msgstr "El nombre del repositorio de GitHub no puede estar vacío"
+
+#: github-release-downloads.php:364
+msgid "GitHub repository not found"
+msgstr "El repositorio de GitHub no se ha encontrado"
+
+#: github-release-downloads.php:440
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes suficientes permisos para acceder a esta página."
+
+#: github-release-downloads.php:451
+msgid "User"
+msgstr "Usuario"
+
+#: github-release-downloads.php:455
+msgid "Repository"
+msgstr "Repositorio"
+
+#: github-release-downloads.php:471
+msgid "Learn how to use the plugin at %s."
+msgstr "Aprende cómo usar el plugin en %s."
+
+#: github-release-downloads.php:484
+msgid "Help"
+msgstr "Ayuda"
+
+#: github-release-downloads.php:485
+msgid "Support"
+msgstr "Soporte"
+
+#: github-release-downloads.php:488
+msgid "Donate"
+msgstr "Donar"
+
+#: github-release-downloads.php:489
+msgid "Buy me a beer"
+msgstr "Invítame una cerveza"
+
+#: github-release-downloads.php:494
+msgid "Follow Me"
+msgstr "Sígueme"
+
+#. Plugin Name of the plugin
+msgid "GitHub Release Downloads"
+msgstr "GitHub Release Downloads"
+
+#. Author of the plugin
+msgid "Ivan Ridao Freitas"
+msgstr "Iván Ridao Freitas"
+
+#. Description of the plugin
+msgid "Get the download count, links and more information for releases of GitHub repositories."
+msgstr "Obtén el recuento de descargas, enlaces y más información de las versiones de un repositorio de GitHub."
+
+#: github-release-downloads.php:489
+msgid "If you want to do something really nice for me..."
+msgstr "Si quieres hacer algo realmente bueno por mí..."
+
+#: github-release-downloads.php:470
+msgid "Need help?"
+msgstr "¿Necesitas ayuda?"
+
+#: github-release-downloads.php:448
+msgid "Set values for the GitHub username and the repository name to use by default in the shortcodes."
+msgstr "Establece los valores del nombre de usuario y el repositorio de GitHub para utilizarlos por defecto en los shortcodes."
+
+#: github-release-downloads.php:70 github-release-downloads.php:445
+msgid "GitHub Release Downloads Settings"
+msgstr "Ajustes de «GitHub Release Downloads»"
+
+#: github-release-downloads.php:433
+msgid "GitHub Release Downloads Options"
+msgstr "Opciones de «GitHub Release Downloads»"
+
+#: github-release-downloads.php:392
+msgid "Shortcode Error: %s"
+msgstr "Error en el shortcode: %s"
+
+#: github-release-downloads.php:377
+msgid "GitHub repository has no releases"
+msgstr "El repositorio de GitHub no tiene versiones"
+
+#. Author URI of the plugin
+msgid "https://ivanrf.com/en/"
+msgstr "https://ivanrf.com/"
+
+#. Plugin URI of the plugin
+msgid "https://ivanrf.com/en/github-release-downloads/"
+msgstr "https://ivanrf.com/github-release-downloads/"
